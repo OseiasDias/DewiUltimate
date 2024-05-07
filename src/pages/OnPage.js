@@ -16,7 +16,7 @@ function OnePage() {
 
         <>
 
-            <div id="slider">
+            <div id="lar">
                 <Slider />
             </div>
             <div id="sobre">
