@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/dewi_site-simples/static/css/main.399533cb.css",
+    "main.js": "/dewi_site-simples/static/js/main.5ddc0e15.js",
+    "static/js/453.bb6194c2.chunk.js": "/dewi_site-simples/static/js/453.bb6194c2.chunk.js",
+    "static/media/about-boxes-bg.jpg": "/dewi_site-simples/static/media/about-boxes-bg.a9060d94036375129e85.jpg",
+    "static/media/testimonials-bg.jpg": "/dewi_site-simples/static/media/testimonials-bg.e1c475137afffffc5ad2.jpg",
+    "static/media/hero-bg.jpg": "/dewi_site-simples/static/media/hero-bg.2cfa18dfd5cfdd843547.jpg",
+    "static/media/portfolio-2.jpg": "/dewi_site-simples/static/media/portfolio-2.c082025dddeb09057e14.jpg",
+    "static/media/about.jpg": "/dewi_site-simples/static/media/about.9ad32c04265891cab906.jpg",
+    "static/media/portfolio-7.jpg": "/dewi_site-simples/static/media/portfolio-7.a73da5d72b214ffa0637.jpg",
+    "static/media/testimonials-2.jpg": "/dewi_site-simples/static/media/testimonials-2.4b41e5c09698f7f4f9f9.jpg",
+    "static/media/about-boxes-2.jpg": "/dewi_site-simples/static/media/about-boxes-2.195c71c1127e53bdf5f8.jpg",
+    "static/media/testimonials-1.jpg": "/dewi_site-simples/static/media/testimonials-1.54f2a70e2804cdf6f09d.jpg",
+    "static/media/about-boxes-1.jpg": "/dewi_site-simples/static/media/about-boxes-1.53bd61e67b1f58b7c100.jpg",
+    "static/media/portfolio-8.jpg": "/dewi_site-simples/static/media/portfolio-8.3c46c6c1343ceb2aeb74.jpg",
+    "static/media/about-boxes-3.jpg": "/dewi_site-simples/static/media/about-boxes-3.e9d2ccca7a8fe73a5c1c.jpg",
+    "static/media/portfolio-1.jpg": "/dewi_site-simples/static/media/portfolio-1.f8a4f20b1b6d6ee85702.jpg",
+    "static/media/portfolio-9.jpg": "/dewi_site-simples/static/media/portfolio-9.fbfa970774a6b6c830d0.jpg",
+    "static/media/testimonials-5.jpg": "/dewi_site-simples/static/media/testimonials-5.8732aa377888dc5873fb.jpg",
+    "static/media/portfolio-6.jpg": "/dewi_site-simples/static/media/portfolio-6.84b78cea838c36fac922.jpg",
+    "static/media/portfolio-5.jpg": "/dewi_site-simples/static/media/portfolio-5.940ac6c8dea7f45f338f.jpg",
+    "static/media/testimonials-4.jpg": "/dewi_site-simples/static/media/testimonials-4.58081dc8c31bc0e1cb6c.jpg",
+    "static/media/portfolio-3.jpg": "/dewi_site-simples/static/media/portfolio-3.fc9e27e7017aebbcbf06.jpg",
+    "static/media/features-2.png": "/dewi_site-simples/static/media/features-2.b60503c7519ff6f3a9ae.png",
+    "static/media/features-1.png": "/dewi_site-simples/static/media/features-1.c97bbca8f29717e82991.png",
+    "static/media/portfolio-4.jpg": "/dewi_site-simples/static/media/portfolio-4.ab6a84ccac895007e9c3.jpg",
+    "static/media/testimonials-3.jpg": "/dewi_site-simples/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
+    "static/media/features-4.png": "/dewi_site-simples/static/media/features-4.40a1c80aa2c78793938f.png",
+    "static/media/features-3.png": "/dewi_site-simples/static/media/features-3.949c0a3d1df1f3c1d92e.png",
+    "index.html": "/dewi_site-simples/index.html",
+    "main.399533cb.css.map": "/dewi_site-simples/static/css/main.399533cb.css.map",
+    "main.5ddc0e15.js.map": "/dewi_site-simples/static/js/main.5ddc0e15.js.map",
+    "453.bb6194c2.chunk.js.map": "/dewi_site-simples/static/js/453.bb6194c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.399533cb.css",
+    "static/js/main.5ddc0e15.js"
+  ]
+}
