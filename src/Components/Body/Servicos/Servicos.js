@@ -44,9 +44,9 @@ function Testational() {
         <section className={styles.Testational}>
 
             <div className='container-fluid '>
-                <ScrollRevealComponent targetclassName='scrollText' />
+                <ScrollRevealComponent targetclassName='' />
 
-                <div className='row  justify-content-center scrollText'>
+                <div className='row  justify-content-center '>
 
                     <div className='col-lg-10 col-12  mt-5'>
 
@@ -66,7 +66,7 @@ function Testational() {
 
                                     </div>
 
-                                    <div className={` carousel-caption ${styles.rrr} scrollText`}>
+                                    <div className={` carousel-caption ${styles.rrr} `}>
                                         <h3>Saul Goodman</h3>
                                         <h4>Ceo &amp; Founder</h4>
                                         <p>
@@ -159,9 +159,9 @@ export default function Servicos() {
                 <div className={`container`}>
                     <div className={`row`}>
 
-                        <ScrollRevealComponent targetclassName='scrollText' />
+                        <ScrollRevealComponent targetclassName='' />
 
-                        <figure className={`col-12 col-md-6 col-lg-4 scrollText`}>
+                        <figure className={`col-12 col-md-6 col-lg-4 `}>
 
                             <div className={styles.margin}>
 
@@ -186,7 +186,7 @@ export default function Servicos() {
 
                         </figure>
 
-                        <figure className={`col-12 col-md-6 col-lg-4 scrollText`}>
+                        <figure className={`col-12 col-md-6 col-lg-4 `}>
 
                             <div className={styles.margin}>
 
@@ -212,7 +212,7 @@ export default function Servicos() {
                         </figure>
 
 
-                        <figure className={`col-12 col-md-6 col-lg-4 scrollText`}>
+                        <figure className={`col-12 col-md-6 col-lg-4 `}>
 
                             <div className={styles.margin}>
 
@@ -261,16 +261,16 @@ function OutrosServicos() {
 
     return (
         <section className={`${styles.corpoMaior}`}>
-            <ScrollRevealComponent targetclassName='scrollText' />
+            <ScrollRevealComponent targetclassName='' />
             <div className={`container`}>
-                <div className={`row scrollText`}>
+                <div className={`row `}>
 
                     <div className={`${styles.section_title}`}>
                         <h2>Services</h2>
                         <p>Check our Services</p>
                     </div>
 
-                    <figure className={`col-12 col-md-6 col-lg-6 scrollText`}>
+                    <figure className={`col-12 col-md-6 col-lg-6 `}>
 
                         <div className={styles.mar}>
                             <div className={styles.porCima}>
@@ -285,7 +285,7 @@ function OutrosServicos() {
                         </div>
                     </figure>
 
-                    <figure className={`col-12 col-md-6 col-lg-6 scrollText`}>
+                    <figure className={`col-12 col-md-6 col-lg-6 `}>
 
                         <div className={styles.mar}>
                             <div className={styles.porCima}>
@@ -299,7 +299,7 @@ function OutrosServicos() {
                         </div>
                     </figure>
 
-                    <figure className={`col-12 col-md-6 col-lg-6 scrollText`}>
+                    <figure className={`col-12 col-md-6 col-lg-6 `}>
 
                         <div className={styles.mar}>
                             <div className={styles.porCima}>
@@ -313,7 +313,7 @@ function OutrosServicos() {
                         </div>
                     </figure>
 
-                    <figure className={`col-12 col-md-6 col-lg-6 scrollText`}>
+                    <figure className={`col-12 col-md-6 col-lg-6 `}>
                         <div className={styles.mar}>
                             <div className={styles.porCima}>
                                 <BsBriefcase className={styles.itemsTop} />
@@ -326,7 +326,7 @@ function OutrosServicos() {
                         </div>
                     </figure>
 
-                    <figure className={`col-12 col-md-6 col-lg-6 scrollText`}>
+                    <figure className={`col-12 col-md-6 col-lg-6 `}>
                         <div className={styles.mar}>
                             <div className={styles.porCima}>
                                 <BsCardChecklist className={styles.itemsTop} />
@@ -338,7 +338,7 @@ function OutrosServicos() {
                             </figcaption>
                         </div>
                     </figure>
-                    <figure className={`col-12 col-md-6 col-lg-6 scrollText`}>
+                    <figure className={`col-12 col-md-6 col-lg-6 `}>
                         <div className={styles.mar}>
                             <div className={styles.porCima}>
                                 <BsClock className={styles.itemsTop} />
@@ -365,8 +365,8 @@ function Escolhas() {
     return (
 
         <section className={styles.central}>
-            <div className='container mt-5 scrollText'>
-                <ScrollRevealComponent targetclassName='scrollText' />
+            <div className='container mt-5 '>
+                <ScrollRevealComponent targetclassName='' />
                 <div className='row'>
 
                     <div className={` ${styles.card}`}>
@@ -460,7 +460,7 @@ function Escolhas() {
                                     role="tabpanel"
                                     aria-labelledby="home-tab"
                                 >
-                                    <div className='row scrollText'>
+                                    <div className='row '>
 
                                         <div className='col-lg-7 col-md-12 col-12'>
                                             <h3>Voluptatem dignissimos provident quasi

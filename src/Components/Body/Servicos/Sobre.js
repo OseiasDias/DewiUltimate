@@ -12,13 +12,13 @@ export default function Sobre() {
 
         <section className={styles}>
 
-            <ScrollRevealComponent targetClass='seccao_sobre' />
+            <ScrollRevealComponent targetClass='' />
 
-            <div className={`container seccao_sobre my-5 ${styles.seccao_sobre}`}>
+            <div className={`container  my-5 ${styles.seccao_sobre}`}>
 
                 <div className={`row mt-5 p-5`}>
 
-                    <div className={`col-6 col-lg-3 col-md-6 mb-2 d-flex seccao_sobre`}>
+                    <div className={`col-6 col-lg-3 col-md-6 mb-2 d-flex `}>
                         <div className={styles.icon}>
                             <BsEmojiSmile className={styles.icones} />
                         </div>
@@ -30,7 +30,7 @@ export default function Sobre() {
                     </div>
 
 
-                    <div className={`col-6 col-lg-3  mb-2 col-md-6 d-flex seccao_sobre`}>
+                    <div className={`col-6 col-lg-3  mb-2 col-md-6 d-flex `}>
                         <div className={styles.icon}>
                             <BsJournalRichtext className={styles.icones} />
                         </div>
@@ -41,7 +41,7 @@ export default function Sobre() {
                         </div>
                     </div>
 
-                    <div className={`col-6 col-lg-3  mb-2 col-md-6 d-flex seccao_sobre `}>
+                    <div className={`col-6 col-lg-3  mb-2 col-md-6 d-flex  `}>
                         <div className={styles.icon}>
                             <BsClock className={styles.icones} />
                         </div>
@@ -52,7 +52,7 @@ export default function Sobre() {
                         </div>
                     </div>
 
-                    <div className={`col-6 col-lg-3  mb-2 col-md-6 d-flex seccao_sobre`}>
+                    <div className={`col-6 col-lg-3  mb-2 col-md-6 d-flex `}>
                         <div className={styles.icon}>
                             <BsAward className={styles.icones} />
                         </div>
@@ -67,14 +67,14 @@ export default function Sobre() {
 
                 <div className={`row`}>
 
-                    <div className={`col-12 col-md-12 col-lg-6 position-relative seccao_sobre`}>
+                    <div className={`col-12 col-md-12 col-lg-6 position-relative `}>
 
                         <img src={imgAbout} alt='...' className='img-fluid' />
                         <BsFillPlayFill className={styles.playB} />
 
                     </div>
 
-                    <div className={`col-12 col-md-12 col-lg-6 position-relative seccao_sobre`}>
+                    <div className={`col-12 col-md-12 col-lg-6 position-relative `}>
                         <h3>Voluptatem dignissimos provident quasi
                             corporis voluptates sit assumenda.</h3>
                         <p>

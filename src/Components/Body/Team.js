@@ -19,12 +19,12 @@ export default function Team() {
             <div className={`container`}>
 
                 <header>
-                    <h4 className={`scrollText`}>TEAM</h4>
-                    <h6 className='scrollText'>CHECK OUR TEAM</h6>
+                    <h4 className={``}>TEAM</h4>
+                    <h6 className=''>CHECK OUR TEAM</h6>
                 </header>
 
                 <div className={`row `}>
-                    <div className='col-12 col-lg-4 col-md-6 scrollText'>
+                    <div className='col-12 col-lg-4 col-md-6 '>
 
                         <div className={styles.espacamento}>
 
@@ -55,7 +55,7 @@ export default function Team() {
 
                     </div>
 
-                    <div className='col-12 col-lg-4 col-md-6 scrollText'>
+                    <div className='col-12 col-lg-4 col-md-6 '>
 
                         <div className={styles.espacamento}>
 
@@ -86,7 +86,7 @@ export default function Team() {
 
                     </div>
 
-                    <div className='col-12 col-lg-4 col-md-6 scrollText'>
+                    <div className='col-12 col-lg-4 col-md-6 '>
 
                         <div className={styles.espacamento}>
 
