@@ -1,0 +1,68 @@
+
+
+
+.seccao_slider{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url('../../assets//img/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.botoes a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    
+}
+
+.botoes a:hover{
+    color: #fff;
+}
+
+.playBtn{
+    font-size: 1.9em;
+    color: #ff4a17;
+}
+
+.playBtn:hover{
+    color: #fff;
+}
+
+.divEspecial{
+ 
+    text-align: center;
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%);
+   
+}
+
+.divEspecial h1{
+    font-size: 3em;
+}
+
+.divEspecial p{
+    font-size: 1.8em;
+}
+
+@media (max-width:992px){
+    .divEspecial h1{
+        font-size: 2.2em;
+    }
+    
+    .divEspecial p{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:768px){
+    .divEspecial h1{
+        font-size: 1.8em;
+    }
+    
+    .divEspecial p{
+        font-size: 1.2em;
+    }
+}

@@ -1,0 +1,97 @@
+
+
+.seccao_formulario{
+    padding: 50px 0;
+}
+
+.seccao_formulario header h5{
+    font-size: 1em;
+    font-weight: 100 !important;
+    letter-spacing: 2px;
+    color: #808080;
+}
+
+
+
+.seccao_formulario header h5::after{
+    content: '';
+    display: inline-block;
+    width: 60px;
+    background-color: #ff4a17;
+    left: 8px;
+    top:-4px;
+    position: relative;
+    height: 1px;
+   
+}
+
+.seccao_formulario header h3{
+    font-size: 2.2em;
+    letter-spacing: 3px;
+    color: #010015;
+    margin: 10px 0;
+}
+
+.linha address{
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.linha address h5{
+    color: #808080;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.linha address p{
+    margin-top: -15px;
+    font-style: italic;
+}
+
+.formulario{
+
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding:30px 20px;
+}
+
+.formulario .itensFormulario{
+    border: none ;
+    outline: none;
+    border: .1px solid #dddd;
+    margin: 5px 0;
+    padding: 6px 10px;
+    border-radius: .2em;
+}
+
+.formulario textarea{
+    max-height: 200px !important;
+}
+
+.meuBotão{
+    width: 40%;
+    margin:  auto;
+    background-color: #010015;
+}
+
+.botao{
+    width: 30% !important;
+    background-color: #ff4a17;
+    color: #fff;
+    border: none;
+    border-radius: .2em;
+    margin: auto;
+    display: block;
+    padding: 8px 0;
+}
+
+.botao:hover{
+    background-color: #e33100;
+}
+
+.proprio{
+    color: #e33100;
+    text-align: center;
+    font-size: 1.7em;
+    margin: 10px 0;
+}

@@ -1,0 +1,319 @@
+.seccao_servicos {
+    background: linear-gradient(#ffffff4e, #ffffff76), url('../../assets/img/about-boxes-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.margin {
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.baixo {
+    padding: 30px 15px;
+    position: relative;
+}
+
+.icon {
+    background-color: #ff4a17;
+    display: inline-block;
+    padding: 15px;
+    border: 3px solid #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15%;
+    border-radius: .2em;
+    transition: all ease-in .3s;
+}
+
+.figura {
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: 700;
+    margin: auto;
+
+
+}
+
+.seccao_servicos {
+    padding-top: 80px;
+}
+
+.baixo .icon:hover {
+    background-color: #fff;
+
+}
+
+.baixo h3 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.baixo h3:hover {
+    color: #ff4a17;
+
+}
+
+.margin:hover .icon {
+    background-color: #fff;
+    border: 3px solid #ff4a17;
+
+}
+
+.margin:hover .figura {
+    color: #ff4a17 !important;
+}
+
+.marcas {
+    background-color: #ddddddbf;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+.marcas img {
+    width: 55%;
+    transition: all ease-in-out .65s;
+    filter: grayscale(100%);
+
+}
+
+.central {
+    color: #000000ce;
+    transition: all ease-in-out .3s
+}
+
+
+.marcas img:hover {
+    width: 70% !important;
+    filter: grayscale(0);
+}
+
+.llista button,
+.llista ul {
+    border: none !important;
+}
+
+.llista li {
+    border: 1px solid #000000ac;
+    margin-right: 20px;
+    max-width: 250px;
+    transition: all .3s ease-in;
+    font-weight: 600;
+
+
+}
+
+.llista button {
+
+    color: #000;
+    padding: 15px 10px;
+}
+
+.llista button:hover {
+    color: #ff4a17;
+}
+
+.icones {
+    font-size: 2.5em;
+    margin: 10px;
+}
+
+.text {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.lista {
+    list-style: none;
+    margin: 4px 0;
+}
+
+.check {
+    font-size: 1.4em;
+    color: #ff4a17;
+}
+
+@media (max-width:992px) {
+
+    .llista button .text {
+        display: none;
+    }
+
+    .icones {
+
+
+
+        display: block;
+        position: relative;
+        margin: auto !important;
+
+    }
+
+    .llista li {
+        position: relative !important;
+    }
+
+    .form {
+        width: 100% !important;
+    }
+
+}
+
+
+
+
+
+.corpoMaior {
+    background-color: #f0f4f8;
+    padding: 50px 10px;
+}
+
+
+.section_title p {
+    font-size: 2.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #060015 !important;
+}
+
+.section_title h2 {
+    color: #ff4a17;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.section_title h2::after {
+    content: '';
+    width: 100px;
+    height: 1.3px;
+    background-color: #100d0daf;
+    position: relative;
+    display: inline-block;
+    top: -2px;
+    left: 10px;
+
+}
+
+.corpoMaior .mar {
+    background-color: #fff;
+    min-height: 100%;
+}
+
+.mar {
+    padding: 15px 20px;
+    display: flex;
+    border-radius: .4em;
+}
+
+.mar .itemsTop {
+    font-size: 2em;
+    margin: 30px;
+    color: #5c8eb0;
+}
+
+.mar .porBaixo h4 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.mar .porBaixo p {
+    font-size: .9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mar:hover .porBaixo h4 a {
+    color: #ff4a17;
+}
+
+.mar .porBaixo h4 a {
+
+
+    text-decoration: none !important;
+
+}
+
+.Testational {
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../assets/img/testimonials-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.carousel {
+    padding-top: 40px !important;
+}
+
+.carousel img {
+
+    border-radius: 50%;
+    display: block !important;
+    margin: auto !important;
+    width: 95px !important;
+    height: 100px;
+    margin-bottom: 60px;
+    border: 7px solid #dddddd65;
+
+}
+
+.rrr {
+    position: relative !important;
+    padding-top: 50px !important;
+    margin: 20px auto 0 auto !important;
+    text-align: center !important;
+    right: 0 !important;
+    left: 0 !important;
+
+}
+
+[data-bs-target="#carouselExampleCaptions" ]{
+    
+    width: 10px !important;
+    border-radius: 50% !important;
+    height: 10px !important;
+}
+
+[data-bs-target="#carouselExampleCaptions" ]:active{
+    background-color: #ff4a17 !important;
+}
+
+.rrr h3{
+    font-size: 1.3em;
+    top:-15px;
+    position: relative;
+    
+}
+
+.rrr h4{
+    font-size:.9em;
+    font-weight: normal;
+    top:-18px;
+    position: relative;
+    
+}
+
+.rrr p{
+    font-size: 1.1em;
+    color: #dddddd;
+
+}
+
+
+@media (max-width:476px){
+    .rrr p{
+        font-size: 1em;
+    }
+    .Testational{
+        height: 78vh;
+    }
+    .form .icones{
+        font-size: 1.3em;
+    }
+
+    .minhaListaPortfolio{
+        width: 100% !important;
+    }
+}
+

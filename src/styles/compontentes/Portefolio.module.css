@@ -1,0 +1,121 @@
+
+
+.portefolio ul{
+    
+    width: 30%;
+    margin: auto !important;
+}
+
+.portefolio  ul li{
+    width: 25% !important;
+    
+}
+
+
+.portefolio button{
+    background-color: #dddd;
+    color: #000 !important;
+    font-size: .9em !important;
+}
+
+@media (max-width:786px){
+
+    .portefolio ul{
+        width: 80%;
+        margin: auto !important;
+    }
+}
+
+@media (max-width:572px){
+    .portefolio ul{
+        width: 100%;
+        margin: auto !important;
+    }
+}
+
+@media (max-width:992px){
+    .portefolio ul{
+        width: 60%;
+        margin: auto !important;
+    }
+}
+
+.bottomDiv{
+    background: linear-gradient(to bottom, #ff491767,#ff4a17);
+    color: #fff;
+    padding:10px;
+    top:-80px;
+    position:relative;
+    transition: all ease-in .3s;
+    opacity: 0;
+    box-shadow:  2px 1px 5px #ff4917b7;
+    
+    transform: translateY(-10px);
+
+}
+
+.espacamento:hover .bottomDiv{
+
+    position: relative;
+    transform: translateY(10px);
+    opacity: 1;
+
+}
+
+.bottomDiv .mais a{
+    text-decoration: none;
+    font-weight: 700;
+
+    color: #fff;
+    font-size: 1.5em !important;
+}
+
+.topDiv img{
+    min-height: 250px;
+}
+
+.espacamento{
+    margin: -25px 5px !important;
+}
+
+.tab1{
+    margin-top: 100px;
+}
+
+.portefolio{
+    padding-top: 100px;
+}
+
+.portefolio h4::after{
+    content: '';
+    width: 70px;
+    height: 1px;
+    background-color: #ff4a17;
+    display: inline-block;
+    font-size: 1px;
+
+    position: relative;
+    top:-8px;
+    margin-left: 8px;
+}
+
+.portefolio .hseis{
+    font-size: 2em;
+    font-weight: 700;
+    margin:10px 10px 50px 0;
+    color: rgba(9, 0, 0, 0.732);
+}
+
+.botaoEspecial{
+    width: 90% !important;
+    margin: auto;
+    display: block;
+}
+
+@media (min-width:992px){
+    .minhaListaPortfolio{
+        width: 80% !important;
+        margin: auto;
+        
+    }
+}

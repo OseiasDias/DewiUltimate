@@ -1,0 +1,82 @@
+
+
+.footer{
+    background-color: #15222b;
+    padding: 50px  0;
+    color: #fff;
+
+
+}
+
+.footer h4 , .footer  h5{
+    margin-bottom: 20px;
+}
+
+.footer ul{
+    list-style: none !important;
+    left: -35px;
+    position: relative;
+}
+
+.footer ul li{
+    margin-bottom: 10px;
+}
+.ultimoForm{
+    width: 100%;
+}
+
+.ultimoForm input{
+    padding: 10px;
+    border: none !important;
+    outline: none;
+}
+.ultimoForm [type="text"]{
+    width: 70%;
+    border-top-left-radius: .2em !important;
+    border-bottom-left-radius: .2em !important;
+}
+.ultimoForm [type="button"]{
+    background-color: #ff4a17 !important;
+    color: #fff !important;
+    width: 29%;
+    border-top-right-radius: .2em !important;
+    border-bottom-right-radius: .2em !important;
+}
+
+.direita{
+    color:  #ff4a17 !important;
+    font-weight: 700 !important;
+    font-size: 1.2em;
+}
+
+.footer ul li:hover{
+    color:  #ff4a17 !important;
+}
+
+.redes_socias .fonte{
+    background-color: #ffffff48;
+    padding: 8px;
+    font-size: 2em;
+    margin-right: 10px;
+    border-radius: .1em;
+}
+.redes_socias .fonte:hover{
+    background-color: #ff4a17;
+    color: #fff;
+}
+
+.back{
+    text-align: center;
+    background-color: #14191d;
+    padding: 30px 0 10px 0;
+    color: #fff;
+    
+}
+
+.back small{
+    color: #ff4a17 !important;
+}
+
+.primeira, .segunda,.terceira{
+    margin-bottom: 20px;
+}

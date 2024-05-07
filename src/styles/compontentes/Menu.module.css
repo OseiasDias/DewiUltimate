@@ -1,0 +1,126 @@
+
+.navbar_brand{
+    font-size: 1.9em;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 2px;
+}
+
+.menuPrincipal{
+    background-color:  #00000088 ;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 3px 4px 19px #000;
+
+}
+
+
+.menu{
+    position: relative; 
+}
+
+.menuPrincipal a{
+    color: #fff ;
+}
+
+.menu li a{
+    font-size: .9em;
+    font-weight: 600;
+   
+}
+.subLista{
+    position: relative;
+}
+
+.subLista a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background:#ff4a17;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: .4s all linear;
+    
+
+}
+
+.subLista a:hover{
+    background-color: #fff !important;
+    color: #000;
+}
+
+.navbar_brand {
+    color: #fff !important;
+}
+
+@media (max-width:992px) {
+  
+    
+    .menuPrincipal a{
+        color: #000;
+    }
+    
+    .bgEspecial{
+         background-color: #fff;
+         padding: 10px;
+         z-index: 10;
+         margin-top: 20px;
+         border-radius: 1em;
+         
+        
+    }  
+    
+    .bbotao{
+        background-color: #ff4a17 !important;
+    }
+
+    .menu_hambuguer{
+        font-size: 1.7em;
+        font-weight: bold;
+        color: #fff !important;
+    }
+
+   
+
+    .navbar_brand + button:focus{
+            border: 1px solid #fff;
+            outline: none;
+            box-shadow: none;
+    }
+}
+
+.subLista a:hover::after{
+    width: 100%;
+}
+
+
+
+.bbotao{
+    border:  1px solid #fff !important;
+    border-radius: .3em;
+    background-color: #ff4a17 !important;
+    
+}
+
+.menuDrop ul{
+    background-color: #00000071;
+    border-radius: 0!important;
+
+}
+
+.menuDrop ul a:active{
+    background-color: #000000b9 !important;
+    
+}
+
+@media (min-width:992px){
+
+    .menuDrop ul{
+        margin-top:16px !important;
+        position:relative;
+        
+    }
+}
+/*Menu Scroll*/

@@ -1,0 +1,108 @@
+.corpo{
+    background-color: #f0f4f8;
+    padding: 60px 0!important;
+}
+
+
+.corpo h3{
+    font-size: 1em;
+    
+}
+
+.corpo h3::before{
+    content: '';
+    background-color: #ff4a17;
+    display: inline-block;
+    width: 60px;
+    height: 1px ;
+    position: absolute;
+    
+
+    
+}
+
+
+.corpo header h4::after{
+    content: '';
+    background-color: #ff4a17;
+    display: inline-block;
+    width: 60px;
+    height: 1px ;
+    left: 8px;
+    top:-4px;
+    position: relative;
+
+}
+.corpo header h6{
+    font-size: 2.3em;
+    color: rgb(0, 10, 33);
+}
+
+.corpo header h4{
+    font-size: 1em !important;
+}
+
+.corpo h6{
+    font-size: 2em;
+    color: #00000094;
+    margin-bottom: 70px;
+}
+
+.mm{
+    font-size: 1.1;
+    color:#ff4a17;
+    display: inline-block;
+   
+    margin-left: 5px !important;
+}
+
+.mm:hover{
+    color: #ec3300 !important;
+}
+
+.fotografia{
+    width: 88%;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 14px 5px;
+    top:-50px;
+    position: relative !important;
+}
+
+.text{
+    width: 60% !important;
+}
+
+
+.font{
+    width:50% !important;
+   
+    padding-top: 20px;
+   
+
+}
+
+@media (min-width:992px){
+    .font{
+       
+        padding-left: 25px !important;
+       
+    
+    }
+    
+}
+
+
+@media (max-width:576px){
+    .text h3{
+        font-size: 1em;
+     
+    }
+    .text h5{
+        font-size: .9em;
+     
+    }
+    .corpo h3::before{
+        width: 25%;
+    }
+}
