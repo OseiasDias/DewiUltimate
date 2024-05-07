@@ -168,7 +168,7 @@ export default function Servicos() {
                                 <div className={styles.cima}>
                                     <img src={img1} alt='...' className='img-fluid' />
 
-                                    /                  </div>
+                                </div>
 
                                 <figcaption className={styles.baixo}>
                                     <div className={styles.icon}>
@@ -193,7 +193,7 @@ export default function Servicos() {
                                 <div className={styles.cima}>
                                     <img src={img2} alt='...' className='img-fluid' />
 
-                                    /                  </div>
+                                </div>
 
                                 <figcaption className={styles.baixo}>
                                     <div className={styles.icon}>
@@ -219,7 +219,7 @@ export default function Servicos() {
                                 <div className={styles.cima}>
                                     <img src={img3} alt='...' className='img-fluid' />
 
-                                    /                  </div>
+                                </div>
 
                                 <figcaption className={styles.baixo}>
                                     <div className={styles.icon}>
