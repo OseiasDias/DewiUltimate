@@ -16,7 +16,7 @@ export default function Portefolio() {
     return (
 
         <section >
-           
+
             <div className={`container  ${styles.portefolio}`} >
 
                 <div className='row '>
@@ -29,12 +29,12 @@ export default function Portefolio() {
                                 <button className={`nav-link w-100 ${styles.botaoEspecial} active`} id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
                             </li>
                             <li className={`nav-item `} role="presentation">
-                                <button className={`nav-link w-100 ${styles.botaoEspecial}`}  id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">App</button>
+                                <button className={`nav-link w-100 ${styles.botaoEspecial}`} id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">App</button>
                             </li>
-                            <li className={`nav-item `}  role="presentation">
-                                <button className={`nav-link w-100 ${styles.botaoEspecial}`}  id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Card</button>
+                            <li className={`nav-item `} role="presentation">
+                                <button className={`nav-link w-100 ${styles.botaoEspecial}`} id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Card</button>
                             </li>
-                            <li className={`nav-item `}  role="presentation">
+                            <li className={`nav-item `} role="presentation">
                                 <button className={`nav-link w-100 ${styles.botaoEspecial}`} id="pills-ultima-tab" data-bs-toggle="pill" data-bs-target="#pills-ultima" type="button" role="tab" aria-controls="pills-ultima" aria-selected="false">Web</button>
                             </li>
                         </ul>
@@ -477,7 +477,7 @@ export default function Portefolio() {
                                 </div>
                             </div>
                             <div className="tab-pane fade" id="pills-ultima" role="tabpanel" aria-labelledby="ultima-tab">
-                            <div className='row'>
+                                <div className='row'>
                                     <div className='col-12 col-lg-4 col-md-6'>
 
                                         <div className={styles.espacamento}>
@@ -564,7 +564,8 @@ export default function Portefolio() {
 
 
 
-                                </div>                            </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
