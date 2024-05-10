@@ -17,7 +17,7 @@ export default function Portefolio() {
 
         <section >
            
-            <div className={`container scrollText ${styles.portefolio}`} >
+            <div className={`container  ${styles.portefolio}`} >
 
                 <div className='row '>
                     <h4 className='scrollText'>PORTFOLIO</h4>
@@ -38,7 +38,7 @@ export default function Portefolio() {
                                 <button className={`nav-link w-100 ${styles.botaoEspecial}`} id="pills-ultima-tab" data-bs-toggle="pill" data-bs-target="#pills-ultima" type="button" role="tab" aria-controls="pills-ultima" aria-selected="false">Web</button>
                             </li>
                         </ul>
-                        <div className={`tab-content pt-2 scrollText ${styles.tab1}`} id="myTabContent">
+                        <div className={`tab-content pt-2  ${styles.tab1}`} id="myTabContent">
                             <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="home-tab">
 
                                 <div className='row'>
